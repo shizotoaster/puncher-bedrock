@@ -4,22 +4,22 @@
     "name": "Puncher",
     "description": "Ultimate boat/minecart destroyer!!!1!",
     "uuid": "4502d68f-0006-4cef-8454-6f062cbfaa74",
-    "version": [1, 1, 0],
-    "min_engine_version": [1, 20, 30]
+    "version": [2, 0, 0],
+    "min_engine_version": [1, 21, 0]
   },
   "modules": [
     {
       "language": "javascript",
       "type": "script",
       "uuid": "6a871a2d-3dec-456e-a60f-ec89157fc876",
-      "version": [1, 1, 0],
+      "version": [2, 0, 0],
       "entry": "scripts/net/shizotoaster/puncher/Puncher.js"
     }
   ],
   "dependencies": [
     {
       "module_name": "@minecraft/server",
-      "version": "1.6.0-beta"
+      "version": "1.15.0"
     }
   ],
   "metadata": {
